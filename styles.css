@@ -1,82 +1,21 @@
-* {
-  margin: 0;
+h1 {
+
 }
 
-html,
-body {
-  height: 100%;
+.heading {
+
 }
 
-article,
-header,
-main,
-aside,
-footer {
-  display: grid;
-  place-content: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 4em;
+#header {
+  
 }
 
-header {
-  background-color: #f99;
-  grid-area: header; /* i can also name this letter h or anything else */
-}
+/* [data-header] {
+  background-color: rgb(159, 45, 45);
+} */
 
-aside {
-  background-color: #20ddd0;
-  grid-area: aside;
-}
-
-main {
-  background-color: #dbd522;
-  grid-area: main;
-}
-
-footer {
-  background-color: #ce1cd7;
-  grid-area: footer;
-}
-
-article {
-  background-color: #1731c4;
-  grid-area: article;
-}
-
-body {
-  display: grid;
-  /* grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-      'header header'
-      'aside main'
-      'footer footer'; */
-  /* grid-template-areas:
-    'main footer footer'
-    'main aside aside'
-    'main header header'; */
-}
-
-@media (min-width: 1000px) {
-  body {
-    grid-template-rows: 100px 1fr 150px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-      'header header header header'
-      'aside main main article'
-      'footer footer footer footer';
-  }
-}
-
-@media (max-width: 1000px) {
-  body {
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 2fr 1fr 1fr 150px;
-    grid-template-areas:
-      'header'
-      'main'
-      'aside'
-      'article'
-      'footer';
-  }
+.homepage {
+  background-color: #890;
+  color: #456;
+  font-size: 3em;
 }
