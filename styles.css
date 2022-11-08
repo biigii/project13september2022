@@ -7,31 +7,44 @@ html, body {
 }
 
 .box {
-  background-color: #f3f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* background-color: #11f; */
+  /* display: flex; */
   color: #fff;
-  font-size: 3em;
+  /* justify-content: center;
+  align-items: center; */
+  font-size: 4em;
 }
 
 section {
+  background-color: #8b5e4d;
   height: 100%;
-  background-color: rgb(237, 222, 222);
   display: grid;
-  gap: 5px;
-  /* row-gap: 10px;
-  column-gap: 3px; */
-  /* grid-template-columns: 100px 200px 300px; */
-  /* grid-template-columns: repeat(3, 200px); */
-  /* grid-template-rows: 100px 300px 50px; */
-  /* grid-template-rows: repeat(3, 250px); */
-  /* grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 1fr 100px; */
-  grid-template-columns: 200px 200px;
-  grid-template-rows: 100px 100px;
-  /* grid-auto-flow: row;
-  grid-auto-rows: 100px; */
-  grid-auto-flow: column;
-  grid-auto-columns: 200px;
+  gap: 10px;
+  /* grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px; */
+  /* justify-content: center;
+  align-content: center;  */
+  /* place-content: center; */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* justify-items: center;
+  align-items: center; */
+  /* place-items: center; */
+}
+
+.box-3 {
+  color: #f33;
+  justify-self: end;
+  align-self: end;
+}
+
+.box-6 {
+  border: 2px solid;
+  justify-self: center;
+  align-self: center;
+}
+
+.box-9 {
+  justify-self: center;
+  align-self: end;
 }
